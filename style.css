@@ -16,19 +16,48 @@ h1 {
 
 .header {
   width: 100%;
-  height: 20px;
+  height: 50px;
   background-color: white;
+
 }
 
 .main-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 20px 0 20px;
 }
 
 .main-logo h2 {
   color: #90bede;
+}
+
+.search-bar {
+  border: 1px solid #90bede;
+  width: 400px;
+  height: 30px;
+  background: transparent;
+}
+
+.search {
+  color: #999;
+  padding: 8px;
+}
+
+.search-icon {
+  
+}
+
+#logout-btn {
+  border: 2px solid #90bede !important;
+  border-radius: 25px !important;
+  background: #90bede;
+  color: #FFF !important;
+  padding: 10px 30px !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#logout-btn:hover {
+  background: transparent !important;
+  color: #90bede !important;
 }
 
 .main-user {
